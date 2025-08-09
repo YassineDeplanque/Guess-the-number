@@ -1,14 +1,14 @@
 let number = Math.floor(Math.random() * 100)
-console.log(number)
+let text = document.getElementById('text')
 
 function submit(){
-    let proposition = document.getElementById('input').value
-    console.log(proposition)
+let proposition = document.getElementById('input').value
+
     if(proposition == number){
-        console.log('win')
+        text.innerText = 'GG you found it !'
     } else if(proposition >= number){
-        console.log('too high')
+        text.innerText = 'Too high...'
     } else{
-        console.log('too low')
+        text.innerText = 'Too low...'
     }
 }
