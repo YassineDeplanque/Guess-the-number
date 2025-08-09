@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the number</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Guess my number</h1>
+    <div class="shadow-dance-container">
+        <h1 class="shadow-dance-text">Guess my number</h1>
+    </div>
     <input id="input" />
-    <button onclick="submit()">Submit</button>
+    <button class="button" onclick="submit()">Submit</button>
     <p id="text"></p>
-    <button onclick="generate()">Generate another number</button>
+    <button class="button" onclick="generate()">Generate another number</button>
 </body>
 </html>

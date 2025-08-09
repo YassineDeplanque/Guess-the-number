@@ -15,8 +15,4 @@ let proposition = document.getElementById('input').value
 
 function generate() {
     number = Math.floor(Math.random() * 100)
-console.log(number)
-
 }
-
-console.log(number)
