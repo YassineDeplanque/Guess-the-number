@@ -12,3 +12,11 @@ let proposition = document.getElementById('input').value
         text.innerText = 'Too low...'
     }
 }
+
+function generate() {
+    number = Math.floor(Math.random() * 100)
+console.log(number)
+
+}
+
+console.log(number)
