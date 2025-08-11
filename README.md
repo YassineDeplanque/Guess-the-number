@@ -1,28 +1,42 @@
-# Guess My Number
+# Number Guessing Game 🎲
 
-A simple JavaScript game where the player has to guess a random number between 1 and 100.
+A simple web-based number guessing game built with HTML and JavaScript. Try to guess the randomly generated number between 0 and 99!
 
-## Features
+---
 
-- Automatically generates a random number between 1 and 100
-- Simple interface with an input field and a button to submit guesses
-- Provides feedback if the guess is too high, too low, or correct
-- Button to generate a new number and reset the game
+## ✨ Features
 
-## Technologies Used
+- **Random Number Generation:** A new number is picked each game, between 0 and 99.
+- **User Feedback:** Get instant feedback ("Too high...", "Too low...", or "GG you found it!") based on your guess.
+- **Easy Reset:** Generate a new random number anytime to start over.
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/YassineDeplanque/Guess-the-number.git
+   cd number-guessing-game
+   ```
+
+2. **Open `index.html` in your web browser.**
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML
-- CSS
-- Vanilla JavaScript
+- JavaScript (Vanilla)
+- CSS (optional, for styling)
 
-## How to Play
+---
 
-1. Enter a number between 1 and 100 in the input field.
-2. Click **Submit** to submit your guess.
-3. The game will tell you if your guess is too high, too low, or correct.
-4. Once you guess correctly, click **Generate another number** to play again.
+## 💡 How it Works
 
-## Getting Started
+- The game randomly picks a number between 0 and 99.
+- Enter your guess in the input box and submit.
+- The game will tell you if your guess is too high, too low, or correct.
+- Click "Generate" to start a new game with a fresh number.
 
-1. Clone or download this repository.
-2. Open `index.html` in your web browser.
+---
